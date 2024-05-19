@@ -16,7 +16,6 @@ function calcularINSS(salarioBruto) {
             percentualINSS = 0.14;
             break;
         default:
-            console.log("Atenção: O salário bruto excede o limite da tabela do INSS de R$ 7.786,02.");
             percentualINSS = 0;
             break;
     }
